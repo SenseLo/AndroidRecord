@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText"></attr>
+        <attr name="titleColor"></attr>
+        <attr name="titleSize"></attr>
+    </declare-styleable>
+
+    <attr name="titleText" format="string"></attr>
+    <attr name="titleColor" format="color"></attr>
+    <attr name="titleSize" format="dimension"></attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="imageText"></attr>
+        <attr name="imageTextSize"></attr>
+        <attr name="imageTextColor"></attr>
+        <attr name="iamge"></attr>
+        <attr name="iamgeScaleType"></attr>
+    </declare-styleable>
+
+    <attr name="imageText" format="string"></attr>
+    <attr name="imageTextSize" format="dimension"></attr>
+    <attr name="imageTextColor" format="color"></attr>
+    <attr name="iamge" format="reference"></attr>
+    <attr name="iamgeScaleType">
+        <enum name="fillXY" value="0"></enum>
+        <enum name="center" value="1"></enum>
+    </attr>
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor"></attr>
+        <attr name="secondColor"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="speed"></attr>
+    </declare-styleable>
+
+    <attr name="firstColor" format="color"></attr>
+    <attr name="secondColor" format="color"></attr>
+    <attr name="circleWidth" format="dimension"></attr>
+    <attr name="speed" format="integer"></attr>
+
+</resources>
