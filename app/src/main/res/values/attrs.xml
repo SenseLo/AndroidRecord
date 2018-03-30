@@ -39,4 +39,21 @@
     <attr name="circleWidth" format="dimension"></attr>
     <attr name="speed" format="integer"></attr>
 
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="v_firstColor"></attr>
+        <attr name="v_secondColor"></attr>
+        <attr name="v_circleWidth"></attr>
+        <attr name="v_dotCount"></attr>
+        <attr name="v_spliteSize"></attr>
+        <attr name="v_bg"></attr>
+    </declare-styleable>
+
+    <attr name="v_firstColor" format="color"></attr>
+    <attr name="v_secondColor" format="color"></attr>
+    <attr name="v_circleWidth" format="dimension"></attr>
+    <attr name="v_dotCount" format="integer"></attr>
+    <attr name="v_spliteSize" format="integer"></attr>
+    <attr name="v_bg" format="reference"></attr>
+
+
 </resources>
